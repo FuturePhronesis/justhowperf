@@ -1,6 +1,21 @@
-h1 {
-    	color: red
-    }
+div.head {
+	color: red;
+    text-align: center;
+    padding: 30px;
+}
+div.intro {
+    color: crimson;
+    text-align: center;
+    padding: 15px;
+}
+div.topbox {
+    padding: 5px;
+}
+div.filler {
+    width: 500px;
+    padding: 500px;
+    margin: auto;
+}
 h2 {
 	color: purple	
 }
@@ -34,7 +49,7 @@ p  {
 	    width: 150px;
     	border: 5px solid black;
     	padding: 25px;
-    	
+
 }
 
 .rb {
@@ -53,12 +68,12 @@ p  {
     	padding: 25px;
     	margin: auto;
     	}
-.filler {
+/*.filler {
  width: 500px;
     	
     	padding: 500px;
     	margin: auto;
-    	}
+    	}*/
 .linkpad {
  width: 500px;
     	
