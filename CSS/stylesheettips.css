@@ -1,3 +1,21 @@
+div.tipshead {
+	color: red;
+	text-align: center;
+	padding: 50px;
+}
+div.tipsintro {
+	color: crimson;
+	text-align: center;
+	padding: 40px;
+}
+div.tipstopbox {
+	padding: 5px;
+}
+div.tipsfiller {
+	width: 500px;
+	padding: 500px;
+	margin: auto;
+}
 h1 {
     	color: purple
     }
