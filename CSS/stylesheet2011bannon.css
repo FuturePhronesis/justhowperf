@@ -1,22 +1,35 @@
-.article-body .annotation-link
+p {
+    margin-left: auto;
+    margin-right: auto;
+    width: 55em  }
+
+blockquote {
+    margin: 0;
+    padding: 40px;
+@include border-radius(5px);
+
+a.annotation-link
     {
     text-decoration: none;
     color: black;
     background: #ccc;
-    padding: 4px;
-    border-radius: 4px;
-}
-.article-body .annotation-link:after
+    padding: 1px;
+    border-radius: 4px;  }
+
+a.annotation-link::after
     {
-    content: " [+]";
+    content: "[+]";
     font-size: 14px;
     vertical-align: middle; }
 
-.article-body .annotation-link:after
+a.annotation-link.active::after
     {
-    counter-increment: footnotes;
-    content: " [" attr(data-annotation) "]"; }
+    content: "[-]"; }
 
-.article-body .annotation-link.active:after
-    {
-    content: " [-]"; }
+a.annotation-link.active,
+a.annotation:target {
+    display: block !important; }
+
+span#annotation-1.annotation.active {
+    display: block !important;
+}
