@@ -1,0 +1,22 @@
+.article-body .annotation-link
+    {
+    text-decoration: none;
+    color: black;
+    background: #ccc;
+    padding: 4px;
+    border-radius: 4px;
+}
+.article-body .annotation-link:after
+    {
+    content: " [+]";
+    font-size: 14px;
+    vertical-align: middle; }
+
+.article-body .annotation-link:after
+    {
+    counter-increment: footnotes;
+    content: " [" attr(data-annotation) "]"; }
+
+.article-body .annotation-link.active:after
+    {
+    content: " [-]"; }
