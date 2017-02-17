@@ -1,6 +1,9 @@
 /**
  * Created by thomasmoore on 2/17/17.
  */
+/**
+ * Created by thomasmoore on 2/17/17.
+ */
 var acc = document.getElementsByClassName("annotation");
 var i;
 
