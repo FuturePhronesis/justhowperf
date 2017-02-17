@@ -4,9 +4,9 @@ p {
     width: 55em  }
 
 blockquote {
-    margin: 0;
-    padding: 40px;
-@include border-radius(5px);
+    padding: 60px;
+    font-size: 18px;
+@include border-radius(5px);}
 
 a.annotation-link
     {
@@ -26,10 +26,22 @@ a.annotation-link.active::after
     {
     content: "[-]"; }
 
-a.annotation-link.active,
-a.annotation:target {
+span.annotation-link.active,
+annotation:target {
     display: block !important; }
 
-span#annotation-1.annotation.active {
-    display: block !important;
+/* span.annotation.active,
+annotation:target {
+    display: block !important; */
 }
+
+.annotation {
+    font-family: "Proxima Nova", sans-serif;
+    font-weight: 200;
+    font-size: 0.94444444444em;
+    display: none;
+    color: #000;
+    background: rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    margin: 1em 0;
+    border-radius: 4px; }
