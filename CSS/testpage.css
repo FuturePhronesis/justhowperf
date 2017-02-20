@@ -1,0 +1,126 @@
+/*----- Accordion -----*/
+.accordion, .accordion * {
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+}
+
+/*.accordion {
+    overflow:hidden;
+    box-shadow:0px 1px 3px rgba(0,0,0,0.25);
+    border-radius:3px;
+    background:#f7f7f7;
+} */
+
+/*----- Section Titles -----*/
+/*.accordion-section-title {
+    width:100%;
+    padding:15px;
+    display:inline-block;
+    border-bottom:1px solid #1a1a1a;
+    background:#eee;
+    transition:all linear 0.15s;
+
+    font-size:18pt;
+    color: black;
+    font-family: serif;
+} */
+
+.accordion-section-title {
+    text-decoration: none;
+    color: black;
+    background: #ccc;
+    padding: 1px;
+    border-radius: 4px;
+}
+
+.accordion-section-title.active, .accordion-section-title:hover {
+    background:#ddd;
+    /* Type */
+    text-decoration:none;
+}
+
+.accordion-section:last-child .accordion-section-title {
+    border-bottom:none;
+}
+
+/*----- Section Content -----*/
+.accordion-section-content {
+    padding:15px;
+    display:none;
+    background: cornflowerblue;
+    border-radius: 4px;
+    margin: 1em 0;
+    /*type*/
+    font-size: 12pt;
+    color: black;
+    font-family: serif;
+}
+
+.accordion-section-content-3 {
+    padding:15px;
+    display:none;
+    background: orange;
+    border-radius: 4px;
+    margin: 1em 0;
+    /*type*/
+    font-size: 12pt;
+    color: black;
+    font-family: serif;
+}
+
+/*From the Atlantic*/
+blockquote {
+    padding: 60px;
+    font-size: 18px;
+@include border-radius(5px);}
+
+/*a.annotation-link
+{
+    text-decoration: none;
+    color: black;
+    background: #ccc;
+    padding: 1px;
+    border-radius: 4px;  } */
+
+.accordion-section-title
+{
+    text-decoration: none;
+    color: black;
+    background: #ccc;
+    padding: 1px;
+    border-radius: 4px;
+    transition:all linear 0.15s;
+}
+
+a.accordion-section-title::after
+{
+    content: "[+]";
+    font-size: 14px;
+    vertical-align: middle; }
+
+a.accordion-section-title.active::after
+{
+    content: "[-]";
+    font-size: 14px;
+    vertical-align: middle;}
+
+span.annotation-link.active,
+annotation:target {
+    display: block !important; }
+
+/* span.annotation.active,
+annotation:target {
+    display: block !important; */
+}
+
+.annotation {
+    font-family: "Proxima Nova", sans-serif;
+    font-weight: 200;
+    font-size: 0.94444444444em;
+    display: none;
+    color: #000;
+    background: rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    margin: 1em 0;
+    border-radius: 4px; }
