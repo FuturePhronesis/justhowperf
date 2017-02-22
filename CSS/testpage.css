@@ -203,3 +203,107 @@ a.accordion-section-title-blue.active::after
     color: black;
     font-family: "Source Sans Pro";
 }
+
+/* -------GREEN-------- */
+/*Accordion*/
+.accordion-green, .accordion * {
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+}
+
+/* Section Title*/
+.accordion-section-title-green {
+    text-decoration: none;
+    color: black;
+    background: #65d162;
+    padding: 1.5px;
+    border-radius: 4px;
+    font-family: "Source Sans Pro";
+}
+
+.accordion-section-title.active-green {
+    background:darkgrey;
+    /* Type */
+    text-decoration:none;
+
+}
+.accordion-section-green:last-child .accordion-section-title-green {
+    border-bottom:none;
+}
+
+a.accordion-section-title-green::after
+{
+    content: "[+]";
+    font-size: 14px;
+    vertical-align: middle; }
+
+a.accordion-section-title-green.active::after
+{
+    content: "[-]";
+    font-size: 14px;
+    vertical-align: middle;}
+
+/* Section Content */
+.accordion-section-content-green {
+    padding: 15px;
+    display: none;
+    background: #76f473;
+    border-radius: 5px;
+    margin: 1em 0;
+    /*type*/
+    font-size: 12pt;
+    color: black;
+    font-family: "Source Sans Pro";
+
+/* ------TEAL------ */
+    /*Accordion*/
+    .accordion-teal, .accordion * {
+        -webkit-box-sizing:border-box;
+        -moz-box-sizing:border-box;
+        box-sizing:border-box;
+    }
+
+/* Section Title*/
+.accordion-section-title-teal {
+    text-decoration: none;
+    color: black;
+    background:  #56ffe8;
+    padding: 1.5px;
+    border-radius: 4px;
+    font-family: "Source Sans Pro";
+}
+
+.accordion-section-title.active-teal {
+    background:darkgrey;
+    /* Type */
+    text-decoration:none;
+
+}
+.accordion-section-teal:last-child .accordion-section-title-teal {
+    border-bottom:none;
+}
+
+a.accordion-section-title-teal::after
+{
+    content: "[+]";
+    font-size: 14px;
+    vertical-align: middle; }
+
+a.accordion-section-title-teal.active::after
+{
+    content: "[-]";
+    font-size: 14px;
+    vertical-align: middle;}
+
+/* Section Content */
+.accordion-section-content-teal {
+    padding: 15px;
+    display: none;
+    background: #84ffee;
+    border-radius: 5px;
+    margin: 1em 0;
+    /*type*/
+    font-size: 12pt;
+    color: black;
+    font-family: "Source Sans Pro";
