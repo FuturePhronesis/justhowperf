@@ -31,6 +31,9 @@ li a:hover {
 }
 
 /* Page Styling */
+.div-top {
+    padding: 25px;
+}
 img {
     display: block;
     margin: auto;
@@ -44,6 +47,14 @@ blockquote {
     font-family: "Source Sans Pro";
 }
 h1 {
+    text-align: center;
+    font-family: "Source Sans Pro";
+}
+h2 {
+    text-align: center;
+    font-family: "Source Sans Pro";
+}
+h3 {
     text-align: center;
     font-family: "Source Sans Pro";
 }
@@ -227,12 +238,12 @@ a.accordion-section-title-blue.active::after
     font-family: "Source Sans Pro";
 }
 
-.accordion-section-title.active-green {
+/*.accordion-section-title.active-green {
     background:darkgrey;
     /* Type */
-    text-decoration:none;
+   /* text-decoration:none;
 
-}
+}*/
 .accordion-section-green:last-child .accordion-section-title-green {
     border-bottom:none;
 }
@@ -260,55 +271,156 @@ a.accordion-section-title-green.active::after
     font-size: 12pt;
     color: black;
     font-family: "Source Sans Pro";
+}
 
-/* ------TEAL------ */
+/* ------PURPLE------ */
 /*Accordion*/
-.accordion-teal, .accordion * {
+.accordion-purple, .accordion * {
     -webkit-box-sizing:border-box;
     -moz-box-sizing:border-box;
     box-sizing:border-box;
 }
 
 /* Section Title*/
-.accordion-section-title-teal {
+.accordion-section-title-purple {
     text-decoration: none;
     color: black;
-    background:  #56ffe8;
+    background:  #f5adff;
     padding: 1.5px;
     border-radius: 4px;
     font-family: "Source Sans Pro";
 }
 
-.accordion-section-title.active-teal {
+/*.accordion-section-title.active-purple {
     background:darkgrey;
     /* Type */
-    text-decoration:none;
+    /*text-decoration:none;
+}*/
 
-}
-.accordion-section-teal:last-child .accordion-section-title-teal {
+.accordion-section-purple:last-child .accordion-section-title-purple {
     border-bottom:none;
 }
 
-a.accordion-section-title-teal::after
+a.accordion-section-title-purple::after
 {
     content: "[+]";
     font-size: 14px;
-    vertical-align: middle; }
+    vertical-align: middle;
+}
 
-a.accordion-section-title-teal.active::after
+a.accordion-section-title-purple.active::after
 {
     content: "[-]";
     font-size: 14px;
-    vertical-align: middle;}
+    vertical-align: middle;
+}
 
 /* Section Content */
-.accordion-section-content-teal {
+.accordion-section-content-purple {
     padding: 15px;
     display: none;
-    background: #84ffee;
+    background: #f8ccff;
     border-radius: 5px;
     margin: 1em 0;
     /*type*/
     font-size: 12pt;
     color: black;
     font-family: "Source Sans Pro";
+}
+
+/* --------YELLOW------ */
+    /*Accordion*/
+.accordion-yellow, .accordion * {
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+}
+
+/* Section Title*/
+.accordion-section-title-yellow {
+    text-decoration: none;
+    color: black;
+    background:  #fffd96;
+    padding: 1.5px;
+    border-radius: 4px;
+    font-family: "Source Sans Pro";
+}
+
+/*.accordion-section-title.active-purple {
+    background:darkgrey;
+    /* Type */
+/*text-decoration:none;
+}*/
+
+.accordion-section-yellow:last-child .accordion-section-title-yellow {
+    border-bottom:none;
+}
+
+a.accordion-section-title-yellow::after
+{
+    content: "[+]";
+    font-size: 14px;
+    vertical-align: middle;
+}
+
+a.accordion-section-title-yellow.active::after
+{
+    content: "[-]";
+    font-size: 14px;
+    vertical-align: middle;
+}
+
+/* Section Content */
+.accordion-section-content-yellow {
+    padding: 15px;
+    display: none;
+    background: #fffdc4;
+    border-radius: 5px;
+    margin: 1em 0;
+    /*type*/
+    font-size: 12pt;
+    color: black;
+    font-family: "Source Sans Pro";
+}
+
+/* ----CONTACT FORM------ */
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 75%; /* Full width */
+    padding: 12px; /* Some padding */
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    font-family: "Source Sans Pro";
+    display: block;
+
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: "Source Sans Pro";
+
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #45a049;
+    font-family: "Source Sans Pro";
+}
+
+/* Add a background color and some padding around the form */
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+    font-family: "Source Sans Pro";
+    width: 45%;
+}
