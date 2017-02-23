@@ -126,7 +126,7 @@ a.accordion-section-title.active::after
 .accordion-section-title-red {
     text-decoration: none;
     color: black;
-    background: #f77976;
+    background: #FF6F6F;
     padding: 1.5px;
     border-radius: 4px;
     font-family: "Source Sans Pro";
@@ -158,7 +158,7 @@ a.accordion-section-title-red.active::after
 .accordion-section-content-red {
     padding:15px;
     display:none;
-    background: #fca8a6;
+    background: #FF9999;
     border-radius: 5px;
     margin: 1em 0;
     /*type*/
@@ -179,7 +179,7 @@ a.accordion-section-title-red.active::after
 .accordion-section-title-blue {
     text-decoration: none;
     color: black;
-    background: #627afc;
+    background: #BCC7E5;
     padding: 1.5px;
     border-radius: 4px;
     font-family: "Source Sans Pro";
@@ -211,7 +211,7 @@ a.accordion-section-title-blue.active::after
 .accordion-section-content-blue {
     padding: 15px;
     display: none;
-    background: #bfc9ff;
+    background: #E6EBF8;
     border-radius: 5px;
     margin: 1em 0;
     /*type*/
@@ -232,7 +232,7 @@ a.accordion-section-title-blue.active::after
 .accordion-section-title-green {
     text-decoration: none;
     color: black;
-    background: #65d162;
+    background: #BFEFBF;
     padding: 1.5px;
     border-radius: 4px;
     font-family: "Source Sans Pro";
@@ -264,7 +264,7 @@ a.accordion-section-title-green.active::after
 .accordion-section-content-green {
     padding: 15px;
     display: none;
-    background: #76f473;
+    background: #E6FAE6;
     border-radius: 5px;
     margin: 1em 0;
     /*type*/
@@ -285,7 +285,7 @@ a.accordion-section-title-green.active::after
 .accordion-section-title-purple {
     text-decoration: none;
     color: black;
-    background:  #f5adff;
+    background:  #A988B0;
     padding: 1.5px;
     border-radius: 4px;
     font-family: "Source Sans Pro";
@@ -319,7 +319,7 @@ a.accordion-section-title-purple.active::after
 .accordion-section-content-purple {
     padding: 15px;
     display: none;
-    background: #f8ccff;
+    background: #C9B3CD;
     border-radius: 5px;
     margin: 1em 0;
     /*type*/
@@ -340,7 +340,7 @@ a.accordion-section-title-purple.active::after
 .accordion-section-title-yellow {
     text-decoration: none;
     color: black;
-    background:  #fffd96;
+    background:  #FDF0BD;
     padding: 1.5px;
     border-radius: 4px;
     font-family: "Source Sans Pro";
@@ -374,7 +374,7 @@ a.accordion-section-title-yellow.active::after
 .accordion-section-content-yellow {
     padding: 15px;
     display: none;
-    background: #fffdc4;
+    background: #FFF8DE;
     border-radius: 5px;
     margin: 1em 0;
     /*type*/
